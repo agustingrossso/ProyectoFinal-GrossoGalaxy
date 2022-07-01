@@ -1,0 +1,1013 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: white !important;
+  font-family: "Comfortaa"; }
+
+/* HEADER - NAVBAR */
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #203455; }
+  nav a {
+    color: white !important;
+    margin-left: 5px; }
+  nav a:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+button {
+  color: white !important;
+  border-color: white !important; }
+
+button:hover {
+  background-color: #4a77c0 !important; }
+
+/* CONTENIDO PRINCIPAL - MAIN */
+main .titulos {
+  position: absolute;
+  text-align: center;
+  font-size: 84px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0px 5px 12px black;
+  margin-left: 800px;
+  margin-top: 250px; }
+
+main h2 {
+  position: absolute;
+  text-align: center;
+  text-shadow: 0px 5px 12px black;
+  font-size: 64px;
+  font-weight: lighter;
+  color: white;
+  margin-left: 420px;
+  margin-top: 320px;
+  padding-top: 20px;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 30ch;
+  animation: typing 2s steps(30), blink 5s infinite step-end alternate;
+  overflow: hidden; }
+
+main img {
+  max-width: 1200px;
+  margin-left: 360px; }
+
+/* GAMING */
+/* MAIN - CONTENIDO PRINCIPAL */
+.presentacion .titulosGaming {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  padding-top: 75px;
+  margin-left: 690px; }
+
+.presentacion .GamingImg {
+  max-width: 1200px;
+  margin-left: 352px; }
+
+.grillaImg {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "ImagenPlay ImagenControl" "ImagenMove Imagen"; }
+
+.ImagenPlay {
+  grid-area: ImagenPlay; }
+
+.ImagenControl {
+  grid-area: ImagenControl; }
+
+.ImagenMove {
+  grid-area: ImagenMove; }
+
+.Imagen {
+  grid-area: Imagen; }
+
+.ImagenPlay img {
+  max-width: 600px;
+  margin-left: 352px; }
+
+.ImagenControl img {
+  max-width: 600px;
+  margin-left: 0px; }
+
+.ImagenMove img {
+  max-width: 600px;
+  margin-left: 352px; }
+
+.Imagen img {
+  max-width: 600px;
+  margin-left: 0px; }
+
+.productosUno {
+  font-weight: bold;
+  position: absolute;
+  font-size: 45px;
+  margin-top: -745px;
+  color: black;
+  margin-left: 500px; }
+  .productosUno .productosUno:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.productosDos {
+  font-weight: bold;
+  position: absolute;
+  font-size: 45px;
+  margin-top: 880px;
+  color: black;
+  margin-left: 550px; }
+  .productosDos .productosDos:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.productosTres {
+  font-weight: bold;
+  position: absolute;
+  font-size: 45px;
+  margin-top: 70px;
+  color: black;
+  margin-left: 1150px; }
+  .productosTres .productosTres:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.productosCuatro {
+  font-weight: bold;
+  position: absolute;
+  font-size: 45px;
+  margin-top: 880px;
+  color: black;
+  margin-left: 1150px; }
+  .productosCuatro .productosCuatro:hover {
+    text-decoration: underline;
+    cursor: pointer; }
+
+.seccionDos .texto {
+  position: absolute;
+  color: white;
+  font-size: 65px;
+  margin-top: 25px;
+  margin-left: 365px; }
+
+.seccionDos .textoDos {
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  margin-top: 95px;
+  margin-left: 370px; }
+
+.seccionDos .imagenCuatro {
+  max-width: 1200px;
+  margin-left: 352px; }
+
+/* BOTON INFORMACIÓN */
+.Info {
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgba(174, 174, 174, 0);
+  margin-left: 570px;
+  position: absolute;
+  margin-top: 655px; }
+
+.grillaImg button:hover {
+  transform: scale(1.3);
+  transition: 1s; }
+
+.InfoDos {
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgba(174, 174, 174, 0);
+  color: black !important;
+  border-color: black !important;
+  margin-left: 1170px;
+  position: absolute;
+  margin-top: 655px; }
+
+.InfoTres {
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgba(174, 174, 174, 0);
+  color: black !important;
+  border-color: black !important;
+  margin-left: 570px;
+  position: absolute;
+  margin-top: 1500px; }
+
+.InfoCuatro {
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgba(174, 174, 174, 0);
+  color: black !important;
+  border-color: black !important;
+  margin-left: 1170px;
+  position: absolute;
+  margin-top: 1500px; }
+
+/* SMARTPHONE */
+.presentacion .titulosSmart {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  padding-top: 75px;
+  margin-left: 780px;
+  text-shadow: 2px 2px 5px black; }
+
+.SmartImg {
+  max-width: 1200px;
+  margin-left: 352px; }
+
+.Celulares {
+  background-color: #d6d6d6;
+  max-width: 1200px;
+  margin-left: 352px; }
+  .Celulares img {
+    max-width: 255px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px; }
+
+.Celulares p .TextoSecundario {
+  position: absolute;
+  font-size: 55px; }
+
+.NombreCelularUno {
+  float: left;
+  display: inline;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 125px;
+  color: black;
+  font-size: 20px; }
+
+.SubLoremUno {
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 100px;
+  color: #000; }
+
+.NombreCelularDos {
+  float: left;
+  display: inline;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 490px;
+  color: black;
+  font-size: 20px; }
+
+.SubLoremDos {
+  font-size: 10px;
+  margin-top: -63px;
+  margin-left: 450px;
+  color: #000; }
+
+.NombreCelularTres {
+  float: left;
+  display: inline;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 850px;
+  color: black;
+  font-size: 20px; }
+
+.SubLoremTres {
+  font-size: 10px;
+  margin-top: -63px;
+  margin-left: 820px;
+  color: #000; }
+
+.grillaSmart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 1px 1px;
+  grid-auto-flow: row;
+  grid-template-areas: "SmartUno SmartUno" "SmartDos SmartDos"; }
+
+.SmartUno {
+  grid-area: SmartUno; }
+
+.SmartDos {
+  grid-area: SmartDos; }
+
+.grillaSmart img {
+  max-width: 455px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  border-radius: 15px; }
+
+.grillaSmart .SmartUno {
+  background-color: #B9B9B9;
+  max-width: 1200px;
+  margin-left: 352px; }
+
+.grillaSmart .CeluGrilla {
+  margin-left: 25px; }
+
+.grillaSmart .SmartDos {
+  background-color: #D1D1D1;
+  max-width: 1200px;
+  margin-left: 352px; }
+
+.grillaSmart .CeluGrillaDos {
+  margin-left: 720px; }
+
+p.Infinit {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 600px;
+  position: absolute;
+  margin-top: -560px;
+  color: #323232; }
+
+.LoremInfinit {
+  margin-left: 610px;
+  position: absolute;
+  margin-top: -480px;
+  color: #323232;
+  font-size: 25px; }
+
+.Xperia {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 150px;
+  position: absolute;
+  margin-top: -560px;
+  color: #323232; }
+
+.LoremXperia {
+  margin-left: 110px;
+  position: absolute;
+  margin-top: -470px;
+  color: #323232;
+  font-size: 25px; }
+
+.btn-Smart {
+  background-color: white;
+  color: black !important;
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 300px;
+  position: absolute;
+  margin-top: 475px; }
+
+.btn-SmartDos {
+  background-color: white;
+  color: black !important;
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: -920px;
+  position: absolute;
+  margin-top: 475px; }
+
+.SmartFooter img {
+  max-width: 1200px;
+  margin-left: 352px; }
+
+/* CAMARAS */
+.presentacion p {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  padding-top: 25px;
+  margin-left: 390px; }
+
+.presentacion .camarasImg {
+  max-width: 1200px;
+  margin-left: 352px; }
+
+.presentacion .subTitulo {
+  font-size: 20px;
+  margin-top: 75px;
+  margin-left: 360px; }
+
+.P-Analogicas {
+  margin-top: -785px;
+  color: black;
+  margin-left: 515px;
+  text-shadow: 2px 2px 5px #696565; }
+
+.P-Reflex {
+  margin-top: -785px;
+  color: white;
+  margin-left: 250px;
+  text-shadow: 2px 2px 5px black; }
+
+.P-Opticas {
+  margin-top: -780px;
+  color: white;
+  margin-left: 550px;
+  text-shadow: 2px 2px 5px black; }
+
+.P-Iluminacion {
+  margin-top: -780px;
+  color: black;
+  margin-left: 170px;
+  text-shadow: 2px 2px 5px black; }
+
+.seccionDos .textoGoPro {
+  position: absolute;
+  color: black;
+  font-size: 65px;
+  margin-top: 25px;
+  margin-left: 1045px; }
+
+.seccionDos .textoDosGo {
+  position: absolute;
+  color: black;
+  font-size: 25px;
+  margin-top: 105px;
+  margin-left: 1010px; }
+
+.btn-nuevo {
+  background-color: black;
+  color: white !important;
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: -375px;
+  position: absolute;
+  margin-top: 675px; }
+
+.btn-nuevoBlanco {
+  background-color: white;
+  color: black !important;
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: -375px;
+  position: absolute;
+  margin-top: 675px; }
+
+.btn-nuevoBlanco .Opticas {
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: -75px;
+  position: absolute;
+  margin-top: 675px; }
+
+.btn-nuevo .Iluminacion {
+  max-width: 270px;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: -375px;
+  position: absolute;
+  margin-top: 675px; }
+
+.Transparencia img {
+  opacity: .7; }
+  .Transparencia img:hover {
+    opacity: 1;
+    transition: all 1s ease;
+    cursor: pointer; }
+
+/* CONTACTO */
+.fondoContacto {
+  background-color: #8CACE0;
+  max-width: 1200px;
+  margin-left: 360px; }
+  .fondoContacto .contacto {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 125px;
+    margin-bottom: -25px; }
+  .fondoContacto .formulario {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px; }
+  .fondoContacto .formulario input {
+    display: block; }
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid white;
+  font-family: "Comfortaa"; }
+
+.formulario textarea {
+  min-height: 120px;
+  max-height: 300px;
+  min-width: 100%;
+  max-width: 100%; }
+
+.formulario input[type="submit"] {
+  width: 200px;
+  margin: 0 auto;
+  background: none;
+  border: 2px solid white;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; }
+
+/* QUIENES SOMOS */
+.QuienesS {
+  background-color: #4a77c0;
+  max-width: 1200px;
+  margin-left: 360px; }
+  .QuienesS .QuienesTitulo {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center; }
+  .QuienesS .QuienesTitulo:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+  .QuienesS .QuienesLorem {
+    max-width: 700px;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 250px; }
+
+.QuienesImg {
+  max-width: 1200px;
+  margin-left: 0px; }
+
+.mapa iframe {
+  width: 1200px;
+  height: 300px; }
+
+/* FOOTER */
+.footer {
+  background-color: #203455;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  height: 80px;
+  padding-top: 30px;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .footer .lista {
+    display: inline;
+    margin-top: 25px;
+    padding-left: 25px; }
+
+/* KEYFRAMES */
+/* H2 - TECNOLOGIA A UN CLICK DE DISTANCIA */
+@keyframes typing {
+  from {
+    width: 0; } }
+
+@keyframes blink {
+  50% {
+    border-color: transparent; } }
+
+/* XXL 1400px */
+@media (max-width: 1400px) {
+  /* INDEX */
+  main .titulos {
+    margin-left: 520px;
+    text-align: center; }
+  main h2 {
+    margin-left: 150px; }
+  main img {
+    max-width: 1200px;
+    margin-left: 100px; }
+  /* GAMING */
+  .presentacion .titulosGaming {
+    margin-left: 480px; }
+  .presentacion .GamingImg {
+    margin-left: 100px; }
+  .ImagenPlay {
+    margin-left: -252px; }
+  .ImagenMove {
+    margin-left: -252px; }
+  .productosUno {
+    margin-left: 475px; }
+  .productosDos {
+    margin-left: 300px; }
+  .productosTres {
+    margin-left: 850px; }
+  .productosCuatro {
+    margin-left: 850px; }
+  .Info {
+    margin-left: 325px; }
+  .InfoDos {
+    margin-left: 925px; }
+  .InfoTres {
+    margin-left: 325px; }
+  .InfoCuatro {
+    margin-left: 925px; }
+  .seccionDos .texto {
+    margin-left: 100px; }
+  .seccionDos .textoDos {
+    margin-left: 105px; }
+  .seccionDos .imagenCuatro {
+    margin-left: 100px; }
+  /* CAMARAS */
+  .presentacion p {
+    margin-left: 145px; }
+  .presentacion .camarasImg {
+    margin-left: 100px; }
+  .presentacion .subTitulo {
+    margin-left: 115px; }
+  .P-Opticas {
+    margin-left: 550px; }
+  .P-Reflex {
+    margin-left: 250px; }
+  .P-Iluminacion {
+    margin-left: 180px; }
+  .seccionDos .textoGoPro {
+    margin-left: 775px; }
+  .seccionDos .textoDosGo {
+    margin-left: 750px; }
+  /* SMARTPHONE */
+  .SmartImg {
+    max-width: 1200px;
+    margin-left: 100px; }
+  .presentacion .titulosSmart {
+    margin-left: 520px; }
+  .Celulares {
+    margin-left: 100px; }
+  .grillaSmart {
+    margin-left: -252px; }
+  .SmartFooter .imagenSmartFooter {
+    margin-left: 100px; }
+  /* QUIENES SOMOS */
+  .QuienesS {
+    margin-left: 100px; }
+  /*CONTACTO*/
+  .fondoContacto {
+    margin-left: 100px; } }
+
+/* XL 1200px */
+@media (max-width: 1200px) {
+  /* INDEX */
+  main .titulos {
+    margin-left: 420px;
+    text-align: center; }
+  main h2 {
+    margin-left: 65px; }
+  main img {
+    max-width: 1200px;
+    margin-left: 0px; }
+  /*GAMING*/
+  .presentacion .titulosGaming {
+    margin-left: 350px; }
+  .presentacion .GamingImg {
+    margin-left: 0px; }
+  .productosUno {
+    margin-left: 480px; }
+  .ImagenPlay {
+    margin-left: -352px; }
+  .productosDos {
+    margin-left: 200px; }
+  .ImagenMove {
+    margin-left: -352px; }
+  .productosTres {
+    margin-left: 750px; }
+  .P-Reflex {
+    margin-left: 220px; }
+  .productosCuatro {
+    margin-left: 750px; }
+  .P-Iluminacion {
+    margin-left: 200px; }
+  .seccionDos .texto {
+    margin-left: 0px; }
+  .seccionDos .textoDos {
+    margin-left: 5px; }
+  .Info {
+    margin-left: 225px; }
+  .InfoDos {
+    margin-left: 825px; }
+  .InfoTres {
+    margin-left: 225px; }
+  .InfoCuatro {
+    margin-left: 825px; }
+  .seccionDos .textoGoPro {
+    margin-left: 650px; }
+  .seccionDos .textoDosGo {
+    margin-left: 620px; }
+  .seccionDos .imagenCuatro {
+    margin-left: 0px; }
+  /*SMARTPHONE*/
+  .SmartImg {
+    max-width: 1200px;
+    margin-left: 0px; }
+  .presentacion .titulosSmart {
+    margin-left: 420px;
+    text-align: center; }
+  .Celulares {
+    max-width: 1200px;
+    margin-left: 0px; }
+  .grillaSmart {
+    margin-left: -352px; }
+  .SmartFooter .imagenSmartFooter {
+    margin-left: 0px; }
+  /*CAMARAS*/
+  .presentacion .camarasImg {
+    margin-left: 0px; }
+  .P-Opticas {
+    margin-left: 550px; }
+  /*QUIENES SOMOS*/
+  .QuienesS {
+    margin-left: 0px; }
+  /*CONTACTO*/
+  .fondoContacto {
+    margin-left: 0px; } }
+
+@media (max-width: 992px) {
+  /*INDEX*/
+  main .titulos {
+    margin-left: 320px; }
+  main h2 {
+    font-size: 50px; }
+  main img {
+    max-width: 995px; }
+  /* GAMING */
+  .presentacion .titulosGaming {
+    margin-left: 245px; }
+  .presentacion .GamingImg {
+    max-width: 992px; }
+  .ImagenPlay img {
+    max-width: 400px; }
+  .productosUno {
+    margin-left: 400px;
+    margin-top: -500px; }
+  .ImagenControl img {
+    max-width: 400px;
+    margin-left: 100px; }
+  .productosTres {
+    margin-left: 670px; }
+  .ImagenMove img {
+    max-width: 400px; }
+  .productosDos {
+    margin-left: 100px;
+    margin-top: 580px; }
+  .Imagen img {
+    max-width: 400px;
+    margin-left: 100px; }
+  .productosCuatro {
+    margin-left: 630px;
+    margin-top: 580px; }
+  .Info {
+    margin-top: 450px;
+    margin-left: 125px; }
+  .InfoDos {
+    margin-top: 450px;
+    margin-left: 650px; }
+  .InfoTres {
+    margin-top: 1000px;
+    margin-left: 125px; }
+  .InfoCuatro {
+    margin-top: 1000px;
+    margin-left: 650px; }
+  .seccionDos .imagenCuatro {
+    max-width: 992px; }
+  /*SMARTPHONE*/
+  .SmartImg {
+    max-width: 992px; }
+  .presentacion .titulosSmart {
+    margin-left: 320px; }
+  .Celulares img {
+    max-width: 200px;
+    margin-left: 95px; }
+  .NombreCelularUno {
+    font-size: 15px;
+    margin-top: -10px; }
+  .SubLoremUno {
+    display: none; }
+  .NombreCelularDos {
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 420px; }
+  .SubLoremDos {
+    display: none; }
+  .NombreCelularTres {
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 730px; }
+  .SubLoremTres {
+    display: none; }
+  .grillaSmart .CeluGrilla {
+    max-width: 400px;
+    margin-top: 20px; }
+  .SmartUno .Infinit {
+    font-size: 30px;
+    margin-left: 535px; }
+  .SmartUno .LoremInfinit {
+    margin-left: 535px; }
+  .btn-Smart {
+    margin-left: 220px; }
+  .SmartDos .CeluGrillaDos {
+    max-width: 400px;
+    margin-left: 570px; }
+  .Xperia {
+    font-size: 30px;
+    margin-top: -525px; }
+  .LoremXperia {
+    margin-left: 25px; }
+  .btn-SmartDos {
+    margin-left: -755px; }
+  .imagenSmartFooter {
+    max-width: 992px; }
+  /*CAMARAS*/
+  .presentacion .camarasImg {
+    max-width: 992px; }
+  .P-Opticas {
+    margin-left: 450px;
+    margin-top: -500px; }
+  .P-Iluminacion {
+    margin-top: -500px;
+    margin-left: 175px; }
+  .P-Reflex {
+    margin-top: -490px;
+    margin-left: 220px; }
+  .btn-nuevo {
+    margin-top: 440px;
+    margin-left: -280px; }
+  .btn-nuevoBlanco {
+    margin-top: 440px;
+    margin-left: -280px; }
+  .seccionDos .textoGoPro {
+    font-size: 40px;
+    margin-left: 620px; }
+  .seccionDos .textoDosGo {
+    font-size: 20px; }
+  /*QUIENES SOMOS*/
+  iframe {
+    max-width: 992px; }
+  .QuienesS .QuienesLorem {
+    margin-left: 160px; } }
+
+/* MD 768px */
+@media (max-width: 768px) {
+  /*INDEX*/
+  main .titulos {
+    font-size: 64px;
+    margin-left: 250px;
+    margin-top: 160px; }
+  main h2 {
+    margin-top: 210px;
+    font-size: 40px;
+    margin-left: 35px; }
+  main img {
+    max-width: 768px;
+    margin-left: 0px; }
+  /*GAMING*/
+  .presentacion .GamingImg {
+    max-width: 768px; }
+  .presentacion .titulosGaming {
+    font-size: 30px;
+    margin-left: 250px; }
+  .ImagenPlay img {
+    max-width: 300px; }
+  .productosUno {
+    font-size: 35px;
+    margin-left: 355px;
+    margin-top: -370px; }
+  .ImagenControl img {
+    max-width: 300px;
+    margin-left: 80px; }
+  .productosTres {
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 515px; }
+  .ImagenMove img {
+    max-width: 300px; }
+  .productosDos {
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 425px; }
+  .Imagen img {
+    max-width: 300px;
+    margin-left: 80px; }
+  .productosCuatro {
+    font-size: 35px;
+    margin-top: 425px;
+    margin-left: 515px; }
+  .Info {
+    margin-top: 320px;
+    margin-left: 80px; }
+  .InfoDos {
+    margin-top: 320px;
+    margin-left: 540px; }
+  .InfoTres {
+    margin-top: 720px;
+    margin-left: 80px; }
+  .InfoCuatro {
+    margin-top: 720px;
+    margin-left: 540px; }
+  .seccionDos .imagenCuatro {
+    max-width: 768px; }
+  .seccionDos .texto {
+    font-size: 45px; }
+  .seccionDos .textoDos {
+    font-size: 15px; }
+  /*SMARTPHONES*/
+  .SmartImg {
+    max-width: 768px; }
+  .presentacion .titulosSmart {
+    margin-left: 190px;
+    margin-top: -25px; }
+  .Celulares img {
+    max-width: 140px;
+    margin-left: 80px; }
+  .NombreCelularUno {
+    margin-left: 75px; }
+  .NombreCelularDos {
+    margin-left: 300px; }
+  .NombreCelularTres {
+    margin-left: 530px; }
+  .SmartUno .Infinit {
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: -540px; }
+  .LoremInfinit {
+    font-size: 15px;
+    margin-right: 25px; }
+  .btn-Smart {
+    margin-left: 100px; }
+  .SmartDos .CeluGrillaDos {
+    margin-left: 350px; }
+  .Xperia {
+    font-size: 20px;
+    margin-left: 85px; }
+  .LoremXperia {
+    font-size: 15px; }
+  .btn-SmartDos {
+    margin-left: -680px; }
+  .SmartFooter .imagenSmartFooter {
+    max-width: 768px; }
+  /*CAMARAS*/
+  .presentacion .camarasImg {
+    max-width: 768px; }
+  .presentacion .titulosCamaras {
+    font-size: 40px; }
+  .presentacion .subTitulo {
+    font-size: 15px;
+    margin-left: 135px; }
+  .grillaImg .P-Reflex {
+    margin-left: 180px;
+    margin-top: -370px; }
+  .grillaImg .P-Analogicas {
+    margin-left: 400px; }
+  .grillaImg .P-Iluminacion {
+    margin-left: 140px;
+    margin-top: -370px; }
+  .grillaImg .P-Opticas {
+    margin-left: 400px;
+    margin-top: -370px; }
+  .grillaImg .btn-nuevo {
+    margin-top: 350px;
+    margin-left: -230px; }
+  .grillaImg .btn-nuevoBlanco {
+    margin-top: 350px;
+    margin-left: -230px; }
+  .seccionDos .textoGoPro {
+    font-size: 40px;
+    margin-left: 450px; }
+  .seccionDos .textoDosGo {
+    font-size: 15px;
+    margin-left: 430px; }
+  /*QUIENES SOMOS*/
+  iframe {
+    max-width: 768px; }
+  .QuienesS .QuienesLorem {
+    margin-left: 40px; } }
+
+/* SM 576px */
+@media (max-width: 576px) {
+  /* INDEX */
+  main .titulos {
+    font-size: 54px;
+    margin-left: 180px; }
+  main h2 {
+    font-size: 30px;
+    margin-left: 25px; }
+  main img {
+    max-width: 577px; } }

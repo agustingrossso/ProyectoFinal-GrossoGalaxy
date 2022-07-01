@@ -1,0 +1,23 @@
+Agregue Keywords y Description en el Index 
+Keywords : Tecnologia gaming Smartphone cámaras galaxy.
+Description: Venta online de productos tecnológicos.
+
+Agregue Keywords y Description en Gaming: 
+Keywords : PlayStation 5, Nintendo, Switch, Dualshocks, Ps Move, HeadPhones.
+Description: Venta de consolas de videojuegos y accesorios.
+
+Agregue Keywords y Description en Smartphone: 
+Keywords : Celular, Samsung, Sony, smartphone.
+Description:El Smartphone que necesitas para conectarte con el mundo.
+
+Agregue Keywords y Description en Cámaras: 
+Keywords :Analogicas, lentes, reflex, sony, iluminacion, luces.
+Description:Descubrir tu manera de mirar atraves de las mejores camaras del mercado.
+
+
+Aplique EXTEND en el Body.
+Aplique MIXIN en los parrafos. 
+
+Creacion de variables.
+
+Agregue página de contacto y quienes somos. 

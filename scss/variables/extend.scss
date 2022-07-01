@@ -1,0 +1,19 @@
+// EXTEND 
+%estilosNavBar-Footer{
+    color:rgb(255, 255, 255) !important;
+    font-family: "Comfortaa";
+}
+
+// MIXIN 
+@mixin FontWeight-Absolute {
+    font-weight: bold;
+    position: absolute;
+}
+
+@mixin colorParrafos($colorTextos) {
+    color: $colorTextos;
+}
+
+// VARIABLES
+$colorTextos:#fff;
+$ColorSubParrafos:#000

@@ -1,0 +1,32 @@
+/* HEADER - NAVBAR */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #203455;
+
+    a {
+        color: white !important;
+        margin-left: 5px;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+
+}
+
+
+button {
+    color: white !important;
+    border-color: white !important;
+
+}
+
+button:hover {
+    background-color: #4a77c0 !important;
+}
+
+

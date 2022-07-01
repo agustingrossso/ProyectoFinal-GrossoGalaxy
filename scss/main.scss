@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+        @extend %estilosNavBar-Footer;
+    
+}
+
+@import './variables/extend.scss';
+
+
+@import './secciones/header.scss';
+@import './secciones/contenidoprinicipal.scss';
+@import './secciones/footer.scss';
+@import './secciones/keyframes.scss';
+@import './secciones/mobile.scss'
+
+

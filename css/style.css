@@ -1140,4 +1140,9 @@ p.Infinit {
   .seccionDos .textoDosGo {
     margin-top: 65px;
     font-size: 10px;
-    margin-left: 350px; } }
+    margin-left: 350px; }
+  /*QUIENES SOMOS*/
+  iframe {
+    max-width: 100%; }
+  .QuienesS .QuienesLorem {
+    margin-left: 40px; } }

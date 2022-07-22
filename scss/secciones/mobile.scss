@@ -899,4 +899,85 @@
         }
     }
 
+     /*SMARTPHONES*/
+     .SmartImg {
+        max-width: 100%;
+    }
+
+    .presentacion .titulosSmart {
+       
+        margin-left: 140px;
+        margin-top: -50px;
+    }
+
+    .Celulares img {
+        max-width: 100px;
+        margin-left: 70px;
+    }
+
+    .NombreCelularUno {
+        margin-left: 70px;
+        font-size: 10px;
+    }
+
+    .NombreCelularDos {
+        font-size: 10px;
+        margin-left: 245px;
+    }
+
+    .NombreCelularTres {
+        font-size: 10px;
+        margin-left: 425px;
+    }
+
+    .SmartUno {
+        .CeluGrilla{
+            max-width: 320px;
+        }
+        .Infinit {
+            font-size: 15px;
+            margin-left: 380px;
+            margin-top: -440px;
+        }
+        .LoremInfinit {
+            font-size: 10px;
+            margin-left: 385px;
+            margin-top: -375px;
+        }
+        .btn-Smart {
+            margin-left: 50px;
+            margin-top: 355px;
+        }
+        }
+
+
+
+    .SmartDos{
+
+        .CeluGrillaDos {
+            max-width: 320px;
+            margin-left: 250px;
+        }
+    
+        .Xperia {
+            font-size: 20px;
+            margin-left: 85px;
+        }
+    
+        .LoremXperia {
+            font-size: 10px;
+        }
+    
+        .btn-SmartDos {
+            margin-left: -680px;
+        }
+    }
+    
+
+    .SmartFooter {
+        .imagenSmartFooter {
+            max-width: 100%;
+        }
+    }
+
 }

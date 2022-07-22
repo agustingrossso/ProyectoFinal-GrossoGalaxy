@@ -983,4 +983,66 @@
         }
     }
 
+    /*CAMARAS*/
+    .presentacion {
+        .camarasImg {
+            max-width: 100%;
+        }
+
+        .titulosCamaras {
+            font-size: 30px;
+            margin-left: 25px;
+        }
+
+        .subTitulo {
+            font-size: 10px;
+            margin-left: 25px;
+            margin-top: 45px;
+        }
+    }
+
+    .grillaImg {
+        .P-Reflex {
+            margin-left: 140px;
+            margin-top: -343px;
+        }
+
+        .P-Analogicas {
+            margin-left: 400px;
+        }
+
+        .P-Iluminacion {
+            margin-left: 100px;
+            margin-top: -343px;
+        }
+
+        .P-Opticas {
+            margin-left: 420px;
+            margin-top: -343px;
+        }
+
+        .btn-nuevo {
+            margin-top: 280px;
+            margin-left: -210px;
+        }
+
+        .btn-nuevoBlanco {
+            margin-top: 280px;
+            margin-left: -200px;
+        }
+    }
+
+    .seccionDos {
+        .textoGoPro {
+            font-size: 25px;
+            margin-left: 350px;
+        }
+
+        .textoDosGo {
+            margin-top: 65px;
+            font-size: 10px;
+            margin-left: 350px;
+        }
+    }
+
 }

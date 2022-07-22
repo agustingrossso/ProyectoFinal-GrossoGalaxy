@@ -1106,4 +1106,38 @@ p.Infinit {
     margin-left: -520px;
     margin-top: 355px; }
   .SmartFooter .imagenSmartFooter {
-    max-width: 100%; } }
+    max-width: 100%; }
+  /*CAMARAS*/
+  .presentacion .camarasImg {
+    max-width: 100%; }
+  .presentacion .titulosCamaras {
+    font-size: 30px;
+    margin-left: 25px; }
+  .presentacion .subTitulo {
+    font-size: 10px;
+    margin-left: 25px;
+    margin-top: 45px; }
+  .grillaImg .P-Reflex {
+    margin-left: 140px;
+    margin-top: -343px; }
+  .grillaImg .P-Analogicas {
+    margin-left: 400px; }
+  .grillaImg .P-Iluminacion {
+    margin-left: 100px;
+    margin-top: -343px; }
+  .grillaImg .P-Opticas {
+    margin-left: 420px;
+    margin-top: -343px; }
+  .grillaImg .btn-nuevo {
+    margin-top: 280px;
+    margin-left: -210px; }
+  .grillaImg .btn-nuevoBlanco {
+    margin-top: 280px;
+    margin-left: -200px; }
+  .seccionDos .textoGoPro {
+    font-size: 25px;
+    margin-left: 350px; }
+  .seccionDos .textoDosGo {
+    margin-top: 65px;
+    font-size: 10px;
+    margin-left: 350px; } }
